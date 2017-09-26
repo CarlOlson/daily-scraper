@@ -1,8 +1,8 @@
 require "spec_helper"
 
-RSpec.describe Daily::Scraper do
+RSpec.describe DailyScraper do
   it "has a version number" do
-    expect(Daily::Scraper::VERSION).not_to be nil
+    expect(DailyScraper::VERSION).not_to be nil
   end
 
   it "does something useful" do

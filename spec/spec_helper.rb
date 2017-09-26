@@ -1,5 +1,5 @@
 require "bundler/setup"
-require "daily/scraper"
+require "daily_scraper"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure

@@ -1,17 +1,17 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'daily/scraper/version'
+require 'daily_scraper/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "daily-scraper"
-  spec.version       = Daily::Scraper::VERSION
+  spec.name          = "daily_scraper"
+  spec.version       = DailyScraper::VERSION
   spec.authors       = ["Carl Olson"]
   spec.email         = ["CarlOlson@users.noreply.github.com"]
 
   spec.summary       = "a framework for scraping sites regularly (daily)"
   spec.description   = spec.summary
-  spec.homepage      = "https://github.com/CarlOlson/daily-scraper"
+  spec.homepage      = "https://github.com/CarlOlson/daily_scraper"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
